@@ -1,0 +1,28 @@
+a:hover
+{
+  background-color: #777777;
+  color: white;
+}
+
+a
+{
+  color: black;
+  margin: 1px 1px 1px 1px;
+  border-width: 1px;
+  border-length: 1px;
+  border-color: white;
+  text-decoration: none;
+  text-align: left;
+  background-color: #b2b2b2;
+  display: block;
+  padding: 10px;
+
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0px;
+  width: 300px;
+
+}

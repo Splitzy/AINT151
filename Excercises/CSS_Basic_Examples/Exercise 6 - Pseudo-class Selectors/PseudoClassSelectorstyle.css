@@ -1,0 +1,25 @@
+a:hover
+{
+  color: orange;
+}
+
+li a:hover
+{
+  text-decoration: none;
+  color: red;
+}
+
+p:first-of-type
+{
+  display: none;
+}
+
+span:first-of-type
+{
+  background-color: Grey;
+}
+
+div p:hover
+{
+  display: block;
+}

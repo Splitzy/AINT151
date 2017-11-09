@@ -1,0 +1,55 @@
+ul
+{
+list-style-type: none;
+padding-left: 0px;
+width: 800px;
+}
+
+#menu>li
+{
+float: left;
+position: relative;
+margin: 2px 2px 2px 2px;
+background-color: #b2b2b2;
+color: black;
+}
+
+a:hover
+{
+  background-color:#c1c1c1;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#menu>li>ul
+{
+  display: none;
+  position: absolute;
+  width: 200px;
+  background-color: #777777;
+}
+
+#menu>li>ul>a:hover
+{
+background-color: #c1c1c1;
+color: black;
+}
+
+#menu>li>ul>a
+{
+color: white;
+}
+
+#menu>li:hover ul
+{
+  display: block;
+}
+
+.clear
+{
+  clear: both;
+}
