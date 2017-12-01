@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "ORC B Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/OCR-B-Regular-web.eot") format("eot"), url("assets/fonts/OCR-B-Regular-web.woff") format("woff"), url("assets/fonts/OCR-B-Regular-web.ttf") format("truetype"), url("assets/fonts/OCR-B-Regular-web.svg") format("svg");
+}
+
+@font-face {
+    font-family: "FS Box Normal Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/fs_box_normal.eot?") format("eot"), url("assets/fonts/fs_box_normal.woff") format("woff"), url("assets/fonts/fs_box_normal.ttf") format("truetype"), url("assets/fonts/fs_box_normal.svg#FS-Box-Normal") format("svg");
+}
+
+body
+{
+ display: block;
+ font-family: "ORC B Regular";
+ background-image: url("assets/img/forest.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+#body
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 800px;
+  border: black solid 2px;
+}
+
+.clear
+{
+  float: clear;
+}
+
+#header
+{
+  padding-top:60px;
+  width: 600px;
+  height: 90px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav
+{
+
+}
+
+#nav>ul
+{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#nav>ul>li
+{
+  float: left;
+  border-right: black solid 2px;
+  border-bottom: black solid 2px;
+  width: 223px;
+  height: 70px;
+}
+
+#nav>ul>li>a
+{
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  line-height: 70px;
+}
+
+#nav>ul>li>a:hover
+{
+  color: white;
+  background-color: black;
+}
+
+#content
+{
+  width: 900px;
+  height:740px;
+  background-color: white;
+}
+
+#footer
+{
+  border-top: black solid 2px;
+  width: 900px;
+  font-style: italic;
+  background-color: white;
+  line-height: 57px;
+  text-align: center;
+}
