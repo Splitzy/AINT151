@@ -72,7 +72,7 @@ body
 {
   text-decoration: none;
   color: black;
-  background-color: #00a300;
+  background-color: rgba(0, 163, 0, 0.7);
   display: block;
   font-size: 25px;
   text-align: center;
@@ -82,14 +82,14 @@ body
 #nav>ul>li>a:hover
 {
   color: white;
-  background-color: #004f00;
+  background-color: rgba(0, 79, 0, 0.7);
 }
 
 #content
 {
   width: 890px;
   height:740px;
-  background-color: #90ed90;
+  background-color: rgba(144, 237, 144, 0.7);
   font-size: 19px;
   padding: 5px;
   text-align: center;
@@ -103,6 +103,7 @@ body
   height: 600px;
   background-color: white;
   border: #438743 solid 2px;
+  box-shadow: 4px 3px 15px 0px;
 }
 
 #footer
@@ -111,7 +112,7 @@ body
   width: 900px;
   height: 48px;
   font-style: italic;
-  background-color: #90ed90;
+  background-color: rgba(144, 237, 144, 0.7);
   line-height: 45px;
   text-align: center;
 }
