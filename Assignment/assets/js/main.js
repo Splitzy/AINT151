@@ -1,17 +1,24 @@
-function OnLoad()
+function GameSetup()
 {
-	SelectRoom(0);
+	localStorage.setItem("playername", document.forms[0]["playerName"].value);
+	localStorage.setItem("playerrace", document.forms[0]["playerRace"].value);
+	localStorage.setItem("playergender", document.forms[0]["playerGender"].value);
 }
 
-function SelectRoom(roomIndex)
+function OnLoad()
 {
-	document.getElementById('roomTitle').innerHTML = roomArray[roomIndex].title;
-	document.getElementById('roomText').innerHTML = roomArray[roomIndex].text;
-	document.getElementById('roomChoices').innerHTML = " ";
+	SelectLevel(0);
+}
 
-	for (var i=0; i < roomArray[roomIndex].choices.length; i++)
+function SelectLevel(gameIndex)
+{
+	document.getElementById('game_img').src = gameArray[gameIndex].img;
+	document.getElementById('game_text').innerHTML = gameArray[gameIndex].text;
+	document.getElementById('game_choices').innerHTML = " ";
+
+	for (var i=0; i < gameArray[gameIndex].choices.length; i++)
 	{
-		var roomArrayChoices =  "<input type='button' value='"+ roomArray[roomIndex].choices[i].text +"' onClick='SelectRoom("+ roomArray[roomIndex].choices[i].index + ")'></input>";
-		document.getElementById('roomChoices').innerHTML += roomArrayChoices;
+		var gameArrayChoices =  "<input type='button' value='"+ gameArray[gameIndex].choices[i].text +"' onClick='SelectLevel("+ gameArray[gameIndex].choices[i].index + ")'></input>";
+		document.getElementById('game_choices').innerHTML += gameArrayChoices;
 	}
 }

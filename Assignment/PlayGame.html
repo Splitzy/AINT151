@@ -4,14 +4,13 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="assignment.css">
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+<title>A Wonder into the Woods</title>
 <script src="assets/js/gameEngine.js"></script>
 <script src="assets/js/main.js"></script>
-
-<title>A Wonder into the Woods</title>
 </head>
-<body>
+<body onLoad=OnLoad()>
 <div id="header">
-  Play A Wonder into the Woods
+  A Wonder into the Woods
 </div>
 <div id="body">
 <div id="nav">
@@ -25,23 +24,9 @@
 <div class="clear"></div>
 <div id="content">
   <div id="game">
-    <p>Before we begin, setup your character.
-      <form method="post" action="PlayGame.html" onSubmit="GameSetup()">
-      Character Name: <input type="text" id="playerName"></input></br>
-      Race: <select id="playerRace">
-        <option value="Human">Human</option>
-        <option value="Orc">Orc</option>
-        <option value="Cat-Human Hybrid">Cat-Human Hybrid</option>
-      </select>
-    </br>
-      Gender: <select id="playerGender">
-        <option value="Male">Male</option>
-        <option value="Female">Female</option>
-      </select>
-    </br>
-      <input type="submit" />
-    </form>
-    </p>
+    <img id="game_img" src=" "></img>
+    <p id="game_text"></p>
+    <div id="game_choices"></div>
   </div>
 </div>
 <div id="footer">

@@ -104,6 +104,8 @@ body
   background-color: white;
   border: #438743 solid 2px;
   box-shadow: 4px 3px 15px 0px;
+  font-family: "FS Box Normal Regular";
+  font-size: 15px;
 }
 
 #footer
