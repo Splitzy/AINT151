@@ -12,7 +12,7 @@ function OnLoad()
 
 function SelectLevel(gameIndex)
 {
-	document.getElementById('game_img').src = gameArray[gameIndex].img;
+	document.getElementById('game_img').src = "assets/img/" + gameArray[gameIndex].img;
 	document.getElementById('game_text').innerHTML = gameArray[gameIndex].text;
 	document.getElementById('game_choices').innerHTML = " ";
 
