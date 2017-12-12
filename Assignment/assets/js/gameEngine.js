@@ -170,5 +170,159 @@ var gameArray = [
 				index: 14
 			}
 		]
-	}
+	},
+	{
+		img: "hole",
+		text: "",
+		choices: [
+			{
+				text: "Jump into the hole",
+				index: 15
+			}
+		]
+	},
+	{
+	img: "underground entrance",
+	text: "",
+	choices: [
+		{
+			text: "Follow the tunnel",
+			index: 16
+		}
+	]
+},
+{
+	img: "underground crossways",
+	text: "",
+	choices: [
+		{
+			text: "Go down the left tunnel",
+			index: 17
+		},
+		{
+			text: "Go down the middle tunnel",
+			index: 18
+		},
+		{
+			text: "Go down the right tunnel",
+			index: 19
+		}
+	]
+},
+{
+	img: "cave town entrance",
+	text: "",
+	choices: [
+		{
+			text: "Go across the bridge",
+			index: 20
+		}
+	]
+},
+{
+	img: "underground dead end",
+	text: "",
+	choices: [
+		{
+		text: "Return to the crossways",
+		index: 16
+		}
+	]
+},
+{
+	img: "underground blocked path",
+	text: "",
+	choices: [
+		{
+		text: "Return to the crossways",
+		index: 16
+		}
+	]
+},
+{
+	img: "bridge guard",
+	text: "",
+	choices: [
+		{
+			text: "Fight the Guard",
+			index: 21
+		}
+	]
+},
+{
+	img: "Guard Fight",
+	text: "",
+	choices: [
+		{
+			text: "Dodge Him",
+			index: 22
+		},
+		{
+			text: "Block his attack",
+			index: 23
+		},
+		{
+			text: "Do nothing",
+			index: 24
+		}
+	]
+},
+{
+	img: "Dodge end",
+	text: "Game over lol",
+	choices: [
+		{
+			text: "Start the fight again",
+			index: 21
+		}
+	]
+},
+{
+	img: "Block",
+	text: "",
+	choices: [
+		{
+			text: "Move out of the way",
+			index: 25
+		},
+		{
+			text: "Give up",
+			index: 26
+		}
+	]
+},
+{
+	img: "Do nothing",
+	text: "",
+	choices: [
+		{
+			text: "Roll out of the way",
+			index: 25
+		},
+		{
+			text: "Give up",
+			index: 26
+		}
+	]
+},
+{
+	img: "Roll out of the way",
+	text: "",
+	choices: [
+		{
+			text: "Well.. goodbye...",
+			index: 27
+		}
+	]
+},
+{
+	img: "sword in chest",
+	text: "",
+	choices: [
+		{
+			text: "Start the fight over",
+			index: 21
+		}
+	]
+}
 ]
