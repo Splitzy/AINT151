@@ -324,5 +324,275 @@ var gameArray = [
 			index: 21
 		}
 	]
+},
+{
+	img: "guard fight end",
+	text: "",
+	choices [
+		{
+			text: "Follow the mayor",
+			index: 28
+		}
+	]
+},
+{
+	img: "mayor's home",
+	text: "",
+	choices: [
+		{
+			text: "Leave the Mayor's home",
+			index: 29
+		}
+	]
+},
+{
+	img: "Town Centre",
+	text: "",
+	choices: [
+		{
+			text:"Go to the blacksmith",
+			index: 30
+		},
+		{
+			text: "Go to the restaurant",
+			index: 31
+		},
+		{
+			text: "Go to the weapons store",
+			index: 32
+		},
+		{
+			text: "Leave the town",
+			index: 33
+		}
+	]
+},
+{
+	img: "blacksmith",
+	text: "",
+	choices: [
+		{
+			text: "get some armour",
+			index: 34
+		},
+		{
+			text: "Leave",
+			index: 29
+		}
+	]
+},
+{
+	img: "restaurant",
+	text: "",
+	choices [
+		{
+			text: "Eat",
+			index: 35
+		},
+		{
+			text: "Leave",
+			index: 29
+		}
+	]
+},
+{
+	img: "Weapons store",
+	text: "",
+	choices: [
+		{
+			text: "Get a sword",
+			index: 36
+		},
+		{
+			text: "Leave",
+			index: 29
+		}
+	]
+},
+{
+	img: "bridge",
+	text: "",
+	choices: [
+		{
+			text: "Head to the hideout",
+			index: 37
+		}
+	]
+},
+{
+	img: "blacksmith armour",
+	text: "",
+	choices: [
+		{
+			text: "Leave",
+			index: 29
+		}
+	]
+},
+{
+	img: "food",
+	text: "",
+	choices: [
+		{
+			text: "Leave",
+			index: 29
+		}
+	]
+},
+{
+	img: "sword",
+	text: "",
+	choices: [
+		{
+			text: "Leave",
+			index: 29
+		}
+	]
+},
+{
+	img: "Hideout",
+	text: "",
+	choices: [
+		{
+			text: "Sneak past them",
+			index: 38
+		},
+		{
+			text: "Wait for them to leave",
+			index: 39
+		},
+		{
+			text: "Attack them",
+			index: 40
+		}
+	]
+},
+{
+	img: "sneak",
+	text: "",
+	choices: [
+		{
+			text: "Enter the hideout",
+			index: 41
+		}
+	]
+},
+{
+	img: "wait",
+	text: "",
+	choices: [
+		{
+			text: "Enter the hideout",
+			index: 41
+		}
+	]
+},
+{
+	img:"attack end",
+	text: "",
+	choices: [
+		{
+			text: "Start Again",
+			index: 37
+		}
+	]
+},
+{
+	img: "captured",
+	text: "",
+	choices: [
+		{
+			text: "Continue",
+			index: 42
+		}
+	]
+},
+{
+	img: "leader",
+	text: "",
+	choices: [
+		{
+			text: "Break free!",
+			index: 43
+		}
+	]
+},
+{
+	img: "escape",
+	text: "",
+	choices: [
+		{
+			text: "Escape via the entrance",
+			index: 44
+		},
+		{
+			text: "Escape via the hideout walls",
+			index: 45
+		}
+	]
+},
+{
+	img: "Escape entrance",
+	text: "",
+	choices: [
+		{
+			text: "Throw the gem to the blue wolf",
+			index: 46
+		},
+		{
+			text: "Keep it",
+			index: 47
+		}
+	]
+},
+{
+	img: "Escape walls",
+	text: "",
+	choices: [
+		{
+			text: "Get to the other side",
+			index: 48
+		}
+	]
+},
+{
+	img: "ending 1",
+	text: "",
+	choices: [
+		{
+			text: "End",
+			index: 49
+		}
+	]
+},
+{
+	img: "ending 2",
+	text: "",
+	choices: [
+		{
+			text: "End",
+			index: 49
+		}
+	]
+},
+{
+	img: "ending 3",
+	text: "",
+	choices: [
+		{
+			text: "End",
+			index: 49
+		}
+	]
+},
+{
+	img: "Game Over",
+	text: "",
+	choices: [
+		{
+			text: "Restart the game",
+			index: 0
+		}
+	]
 }
 ]
