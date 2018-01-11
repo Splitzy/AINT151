@@ -5,7 +5,7 @@ var playerGender = localStorage.getItem("playergender");
 var gameArray = [
 	{
 		img:"test.png",
-		text:"Your name is " + playerName + " and you are on a quest to find the mystical gem that can grant any wish you have. It's said to be hidden in the woods with the wizard that stole it from the king. You are only armed with a torch and you are ready to start your adventure and to bring back the gem to it's rightful owner and from the nice reward money you'll get as well.",
+		text:"Your name is " + playerName + " and you are on a quest to find the mystical gem that can grant any wish you have. It's said to be hidden in the woods with the wizard that stole it from the king. You are only armed with a torch and you are ready to start your adventure and to bring back the gem to its rightful owner and from the nice reward money you'll get as well.",
 		choices:[
 			{
 				text:"Enter the woods",
@@ -129,7 +129,7 @@ var gameArray = [
 	},
 	{
 		img: "Cottage Attic",
-		text: "You open the attic door and climb up the ladder into the dusty attic, full of old stuff and spiders. You can also see a window as well.",
+		text: "You open the attic door and climb up the ladder into the dusty attic, full of old stuff and spiders. You can also see a window looking out onto the backyard as well.",
 		choices: [
 			{
 				text: "Leave the attic",
@@ -193,7 +193,7 @@ var gameArray = [
 },
 {
 	img: "underground crossways",
-	text: "Before you go ahead, the wolf jumps down and quickly catches up to you. ''Hey don't forget about me!'', the wolf shouts at you in fear. You both start to head in the direction towards the heart of the woods. </br> </br> After walking in the tunnells for what seems like forever, you come across 3 different paths to go down.",
+	text: "Before you go ahead, the wolf jumps down and quickly catches up to you. ''Hey don't forget about me!'', the wolf shouts at you in fear. You both start to head in the direction towards the heart of the woods. “And by the way, the name’s blue.” He mentioned to you as you head off into the tunnel. </br> </br> After walking in the tunnells for what seems like forever, you come across 3 different paths to go down.",
 	choices: [
 		{
 			text: "Go down the left tunnel",
@@ -211,7 +211,7 @@ var gameArray = [
 },
 {
 	img: "cave town entrance",
-	text: "You choose to go down the left tunnel and both of you slowly go through the path which starts to get slightly smaller and narrower. Ater a few minutes of travel, all of a sudden the tunnel floor collapses beneath your feet and fall down to a hard rocky surface with a crash! </br> </br> You slowly get up with no injuries on your body but however, the wolf has suffered a nasty injury on his leg. ''Here let me help you!'' You say to him as you as you put him over your shoulders, looking around your surroundings as you do. You noticed a man-made bridge over in the distance, looks like there might be a town down here in this murky cave system.",
+	text: "You choose to go down the left tunnel and both of you slowly go through the path which starts to get slightly smaller and narrower. After a few minutes of travel, all of a sudden the tunnel floor collapses beneath your feet and fall down to a hard rocky surface with a crash! </br> </br> You slowly get up with no injuries on your body but however, Blue has suffered a nasty injury on his leg. ''Here let me help you!'' You say to him as you as you put him over your shoulders, looking around your surroundings as you do. You noticed a man-made bridge over in the distance, looks like there might be a town down here in this murky cave system.",
 	choices: [
 		{
 			text: "Head to the bridge",
@@ -307,7 +307,7 @@ var gameArray = [
 },
 {
 	img: "Roll out of the way",
-	text: "You instinctly roll out of the way as he was about to plunge his sword. He stamps on your crotch to hold you down, this feels like it's the end of your journey as you look at the wolf lying next to the pillar...",
+	text: "You instinctively roll out of the way as he was about to plunge his sword. He stamps on your crotch to hold you down, this feels like it's the end of your journey as you look at the wolf lying next to the pillar...",
 	choices: [
 		{
 			text: "goodbye...",
@@ -411,7 +411,7 @@ var gameArray = [
 },
 {
 	img: "bridge",
-	text: "As you're about to cross the bridge over, the guard stops you in your path but this time for a different reason. ''Look I know you hate me for what I did but I was just following orders, I didn't realize you were going to help with our problem with the bandits. I know you're mad but I'm sorry... Do you accept my apology?'' </br> </br> He puts his hand infront of you. Do you shake it?",
+	text: "As you're about to cross the bridge over, the guard stops you in your path but this time for a different reason. ''Look I know you hate me for what I did but I was just following orders, I didn't realize you were going to help with our problem with the bandits. I know you're mad but I'm sorry... Do you accept my apology?'' </br> </br> He puts his hand in front of you. Do you shake it?",
 	choices: [
 		{
 			text: "Yes",
@@ -455,7 +455,7 @@ var gameArray = [
 },
 {
 	img: "Hideout",
-	text: "You approach the hideout and you notice two bandits standing outside of the hideout. It looks like you can sneak past them, do a suprise attack or wait it out.",
+	text: "You approach the hideout and you notice two bandits standing outside of the hideout. It looks like you can sneak past them, do a surprise attack or wait it out.",
 	choices: [
 		{
 			text: "Sneak past them",
@@ -503,7 +503,7 @@ var gameArray = [
 },
 {
 	img: "captured",
-	text: "You open the entrance door and all of a sudden, a bear trap gets set off and your trapped in it. The guards come back and wonder what to do to you. ''Nah bring him to the leader, he must be looking for that gem we got in our possesion! He can see it before he dies! hahahaha!'' The guards ties me up and brings me inside.",
+	text: "You open the entrance door and all of a sudden, a bear trap gets set off and your trapped in it. The guards come back and wonder what to do to you. ''Nah bring him to the leader, he must be looking for that gem we got in our possesion! He can see it before he dies! hahahaha!'' The guards ties you up and brings you inside.",
 	choices: [
 		{
 			text: "Continue",
@@ -513,7 +513,7 @@ var gameArray = [
 },
 {
 	img: "leader",
-	text: "They take me to a large room where the leader sits there waiting for me, to my suprise it's a red human-like wolf who looks similar to the blue wolf. ''So looking for this?'' The red wolf says to me while holding the gem in his hand, ''Well this will be the only time you'll ever get to see it. Time to die you son of a bi-'' </br> </br> He gets punched in the face by the blue wolf who managed to get in without being noticed. The two then have an angry conversation together where it seems like they know each other... You also notice that the ropes that tied you up are weak.",
+	text: "They take me to a large room where the leader sits there waiting for me, to my surprise it's a red human-like wolf who looks similar to Bluef. ''So looking for this?'' The red wolf says to me while holding the gem in his hand, ''Well this will be the only time you'll ever get to see it. Time to die you son of a bi-'' </br> </br> He gets punched in the face by blue who managed to get in without being noticed. The two then have an angry conversation together where it seems like they know each other... You also notice that the ropes wrapped around you up are weak.",
 	choices: [
 		{
 			text: "Break free!",
@@ -523,7 +523,7 @@ var gameArray = [
 },
 {
 	img: "escape",
-	text: "You use every ounce of strenght to break free from the restraints and quickly grab the gem from the red wolf's hands. ''BLUE! RUN! NOW!'' You shout at him as you run away from the leader's room. The blue wolf tells you how he managed to get in via the hideout walls. Looks like you have to ways of leaving this place.",
+	text: "You use every ounce of strength to break free from the restraints and quickly grab the gem from the red wolf's hands. ''BLUE! RUN! NOW!'' You shout at him as you run away from the leader's room. The blue wolf tells you how he managed to get in via the hideout walls. Looks like you have to ways of leaving this place.",
 	choices: [
 		{
 			text: "Escape via the entrance",
@@ -537,7 +537,7 @@ var gameArray = [
 },
 {
 	img: "Escape entrance",
-	text: "You decide to go out where you came in, you and Blue run through the enterance and head off towards the bridge but however, red catches to you both. Blue shouts for you to throw the gem at him but you have other plans, what do you do now? ",
+	text: "You decide to go out where you came in, you and Blue run through the entrance and head off towards the bridge but however, red catches to you both. Blue shouts for you to throw the gem at him but you have other plans, what do you do now? ",
 	choices: [
 		{
 			text: "Throw the gem to Blue",
@@ -571,7 +571,7 @@ var gameArray = [
 },
 {
 	img: "ending 2",
-	text: "You stop running and shout ''I wish I was away from all of this!!'' Everything goes black... </br> </br> You open your eyes and you realized you must be daydreaming but it doesn't matter now. You're name is" + playerName + " and you are on a quest to find the mystical gem that can grant any wish you have. It's said to be hidden in the woods with the wizard that stole it from the king. You are only armed with a torch and you are ready to start your adventure and to bring back the gem to it's rightful owner and from the nice reward money you'll get as well.",
+	text: "You stop running and shout ''I wish I was away from all of this!!'' Everything goes black... </br> </br> You open your eyes and you realized you must be daydreaming but it doesn't matter now. Your name is" + playerName + " and you are on a quest to find the mystical gem that can grant any wish you have. It's said to be hidden in the woods with the wizard that stole it from the king. You are only armed with a torch and you are ready to start your adventure and to bring back the gem to its rightful owner and from the nice reward money you'll get as well.",
 	choices: [
 		{
 			text: "End",
@@ -581,7 +581,7 @@ var gameArray = [
 },
 {
 	img: "ending 3",
-	text: "You manage to reach the other side of the lake and promotly shout at the blue wolf. ''You know that red wolf!?'' </br> ''Yeah I do, he's my brother. I used to be an adventurer with him but after he got that gem, it corrupted him and banished me from his hideout then I met you at that rotten cottage and that's when I knew that you would be the one to bring that adventure back into my life.'' You look down at the gem as you think about what to do next. ''You know what, screw the gem. Let's go travelling together blue!'' You exclaim as you throw the gem into the lake. You grab blue's hand and both of you walk together out of the cave, ready for a new life together as the adventuring duo.",
+	text: "You manage to reach the other side of the lake and promotly shout at Blue. ''You know that red wolf!?'' </br> ''Yeah I do, he's my brother. I used to be an adventurer with him but after he got that gem, it corrupted him and banished me from his hideout then I met you at that rotten cottage and that's when I knew that you would be the one to bring that adventure back into my life.'' You look down at the gem as you think about what to do next. ''You know what, screw the gem. Let's go travelling together blue!'' You exclaim as you throw the gem into the lake. You grab blue's hand and both of you walk together out of the cave, ready for a new life together as the adventuring duo.",
 	choices: [
 		{
 			text: "End",
