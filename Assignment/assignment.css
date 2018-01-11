@@ -94,6 +94,11 @@ body
   text-align: center;
 }
 
+#content>img
+{
+  border-radius: 50%;
+}
+
 #game
 {
   margin: auto;
