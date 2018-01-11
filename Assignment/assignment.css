@@ -94,7 +94,7 @@ body
   text-align: center;
 }
 
-#content>img
+.face
 {
   border-radius: 50%;
 }
