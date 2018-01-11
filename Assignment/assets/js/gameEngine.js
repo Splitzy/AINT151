@@ -4,7 +4,7 @@ var playerGender = localStorage.getItem("playergender");
 
 var gameArray = [
 	{
-		img:"test.png",
+		img:"entrance.png",
 		text:"Your name is " + playerName + " and you are on a quest to find the mystical gem that can grant any wish you have. It's said to be hidden in the woods with the wizard that stole it from the king. You are only armed with a torch and you are ready to start your adventure and to bring back the gem to its rightful owner and from the nice reward money you'll get as well.",
 		choices:[
 			{
@@ -14,7 +14,7 @@ var gameArray = [
 		]
 	},
 	{
-		img:'woods_entrance',
+		img:'forest.jpg',
 		text:"You stand in the entrance of the woods, as soon as you stepped into the woods you feel a sense of lingering danger around you... </br> There are 3 paths in front of you, which one will you take?",
 		choices:[
 			{
@@ -32,7 +32,7 @@ var gameArray = [
 		]
 	},
 	{
-		img:'north',
+		img:'river.jpg',
 		text:"You walk for only a few minutes until you see a river but however you quickly notice that this isn't a river... it's a rapid! You decide it's too dangerous to cross.",
 		choices:[
 			{
@@ -42,7 +42,7 @@ var gameArray = [
 		]
 	},
 	{
-		img:"clearing",
+		img:"cottage.png",
 		text:"You stand in a clearing and you notice a small and quaint cottage in the middle of you, the sun shines onto the house like it's a beacon of hope.",
 		choices:[
 			{
@@ -52,7 +52,7 @@ var gameArray = [
 		]
 	},
 	{
-		img:"west",
+		img:"cliff.png",
 		text:"You walk for only a few minutes until you see a giant hole that looks like it's too big to jump across. You decide it's too risky to try jumping over it.",
 		choices:[
 			{
@@ -62,7 +62,7 @@ var gameArray = [
 		]
 	},
 	{
-		img:"cottage door",
+		img:"door.jpg",
 		text: "You walk up to the door and knock on it, someone opens it to reveal themselves as a blue human-like wolf. </br> 'O hi there. You must be lost, come on in!'",
 		choices:[
 			{
@@ -72,7 +72,7 @@ var gameArray = [
 		]
 	},
 	{
-		img:"cottage living room",
+		img:"living room.png",
 		text: "You walk inside and sees a lovely and rustic interior of the cottage. 'Please sit down!' The blue wolf says. 'Feel free to look around if you want! Just not in my room though...'",
 		choices:[
 			{
@@ -86,7 +86,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "cottage upstairs",
+		img: "hallway.jpg",
 		text: "You walk up the stairs and into the corridor, you see the wolf's bedroom at the end of the corridor but you also notice the attic door slightly ajar.",
 		choices: [
 			{
@@ -104,7 +104,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "cottage kitchen",
+		img: "kitchen.jpg",
 		text: "You enter the kitchen and as soon as you walk in, you smell something so delicious! 'Oh I'm cooking some roast beef with roast potatoes! With my own special gravy~!' The wolf responds.",
 		choices: [
 			{
@@ -114,7 +114,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "Cottage bedroom",
+		img: "bedroom.png",
 		text: "You walk into the wolf's bedroom, you see a nice comfy bed and a lovely wooden chest by the foot of the bed.",
 		choices: [
 			{
@@ -128,7 +128,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "Cottage Attic",
+		img: "Attic.png",
 		text: "You open the attic door and climb up the ladder into the dusty attic, full of old stuff and spiders. You can also see a window looking out onto the backyard as well.",
 		choices: [
 			{
@@ -142,7 +142,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "cottage chest",
+		img: "chest.png",
 		text: "You crouch down and open the chest and uh... uh... </br> </br> It's best to ignore what you just saw.",
 		choices: [
 			{
@@ -152,7 +152,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "cottage window",
+		img: "window.jpg",
 		text: "You walk up to the window and look outside. You see the other side of the woods but you notice a pile of dirt in the middle of the clearing with a shovel stuck in it.",
 		choices: [
 			{

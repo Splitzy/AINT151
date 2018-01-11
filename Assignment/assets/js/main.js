@@ -15,6 +15,7 @@ function SelectLevel(gameIndex)
 	document.getElementById('game_img').src = "assets/img/" + gameArray[gameIndex].img;
 	document.getElementById('game_text').innerHTML = gameArray[gameIndex].text;
 	document.getElementById('game_choices').innerHTML = " ";
+	document.getElementById('game').backgroundcolor = gameArray[gameIndex].color;
 
 	for (var i=0; i < gameArray[gameIndex].choices.length; i++)
 	{
