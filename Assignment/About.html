@@ -23,11 +23,14 @@
 <div id="content">
   <p>This project was made by Alex Davis for the AINT151 assignment.</p>
   </br>
-  <img class="face" src=assets/img/alex.jpg width=200px height=200px/> </br>
+  <img class="face" src=assets/img/alex.jpg width=200px height=200px /> </br>
   <b><u>Name:</b></u> Alex </br>
   <b><u>Age:</b></u> 20 </br>
   <b><u>Likes:</b></u> Gaming, listening to music, having fun and food!</br>
-  <b><u>Dislikes:</b></u> Annoying people. </br> </br> </br> </br>
+  <b><u>Dislikes:</b></u> Annoying people. </br> </br>
+  <input type="button" value="Play Me!" onclick="play()"/>
+  <audio id="audio" src="assets/song/song.mp3"></audio>
+ </br> </br>
   This project was made with HTML, CSS and Javascript.
 </div>
 <div id="footer">
@@ -36,3 +39,11 @@
 </div>
 </body>
 </html>
+
+<script>
+function play()
+{
+  var audio = document.getElementById("audio");
+  audio.play();
+}
+</script>
