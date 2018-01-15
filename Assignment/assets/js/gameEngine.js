@@ -162,7 +162,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "dirt mound",
+		img: "dirt.jpg",
 		text: "You leave the attic and the cottage as you approach the dirt mound. You wonder why there's a random dirt mound in the middle of the clearing. You notice a flock of birds fly into the woods as well.",
 		choices: [
 			{
@@ -172,7 +172,7 @@ var gameArray = [
 		]
 	},
 	{
-		img: "hole",
+		img: "hole.jpg",
 		text: "You grab for the shovel and start digging, the blue wolf notices you outside while he was cooking and asks you what you were doing. ''I'm trying to see what you buried down here, hopefully it's just a dead dog or something like that...''' </br> </br> After what seemed like eternity, the ground suddenly gives and you find a underground tunnel system underneath the cottage. This must be the way out of here!",
 		choices: [
 			{
@@ -182,7 +182,7 @@ var gameArray = [
 		]
 	},
 	{
-	img: "underground entrance",
+	img: "tunnel.jpg",
 	text: "Before you jumps in, the blue wolf stops you from doing so. ''HEY! What do you think you're doing? You going to leave me behind???'' The Wolf yells. </br> ''Wait? You want to come with me? Are you insane? It's dangerous out there! But if you must, I can't stop you from following me so...'', I respond to him just before jumping in. </br> </br> You land in the middle of the tunnel which is big enough for 2 people.",
 	choices: [
 		{
@@ -192,7 +192,7 @@ var gameArray = [
 	]
 },
 {
-	img: "underground crossways",
+	img: "tunnel.jpg",
 	text: "Before you go ahead, the wolf jumps down and quickly catches up to you. ''Hey don't forget about me!'', the wolf shouts at you in fear. You both start to head in the direction towards the heart of the woods. “And by the way, the name’s blue.” He mentioned to you as you head off into the tunnel. </br> </br> After walking in the tunnells for what seems like forever, you come across 3 different paths to go down.",
 	choices: [
 		{
@@ -210,7 +210,7 @@ var gameArray = [
 	]
 },
 {
-	img: "cave town entrance",
+	img: "cave.jpg",
 	text: "You choose to go down the left tunnel and both of you slowly go through the path which starts to get slightly smaller and narrower. After a few minutes of travel, all of a sudden the tunnel floor collapses beneath your feet and fall down to a hard rocky surface with a crash! </br> </br> You slowly get up with no injuries on your body but however, Blue has suffered a nasty injury on his leg. ''Here let me help you!'' You say to him as you as you put him over your shoulders, looking around your surroundings as you do. You noticed a man-made bridge over in the distance, looks like there might be a town down here in this murky cave system.",
 	choices: [
 		{
@@ -220,7 +220,7 @@ var gameArray = [
 	]
 },
 {
-	img: "underground dead end",
+	img: "tunnel.jpg",
 	text: "You choose to go down the middle tunnel but just as you were about to go down it, the wolf points his torch at the tunnel. ''Look it's a dead end. It's like whoever made this just gave up and went home.''",
 	choices: [
 		{
@@ -230,7 +230,7 @@ var gameArray = [
 	]
 },
 {
-	img: "underground blocked path",
+	img: "tunnel.jpg",
 	text: "You choose to go down the right tunnel. You and the wolf walk down it until suddenly the tunnel ceiling starts to crumble and collapse, you both run away as the right tunnel becomes blocked.",
 	choices: [
 		{
@@ -240,7 +240,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "bridge.png",
 	text: "Despite the heavy weight of the wolf over your shoulders, you manage to get to the bridge but however there's a guard in the middle of the bridge blocking your way into the town. You place the wolf comfortably next to a pillar as you walk up to the guard to explain your situation. ''No outsiders can enter the town unless they defeat me in combat. Either you beat me or you die. Your choice.'' The guard explains to you in a gruff voice. </br> </br> Looks like you have no choice but to fight him.",
 	choices: [
 		{
@@ -368,7 +368,7 @@ var gameArray = [
 	]
 },
 {
-	img: "blacksmith",
+	img: "blacksmith.jpg",
 	text: "You enter the blacksmiths with the man in charge working. He looks very busy.",
 	choices: [
 		{
@@ -382,7 +382,7 @@ var gameArray = [
 	]
 },
 {
-	img: "restaurant",
+	img: "restaurant.jpg",
 	text: "You enter the restaurant and a waiter comes up to you and asks if you're looking for something to eat.",
 	choices: [
 		{
@@ -396,7 +396,7 @@ var gameArray = [
 	]
 },
 {
-	img: "Weapons store",
+	img: "sword store.jpg",
 	text: "You walk up to the small weapons store and the man in charge greets you with a pleasant smile.",
 	choices: [
 		{
@@ -410,7 +410,7 @@ var gameArray = [
 	]
 },
 {
-	img: "bridge",
+	img: "apology.png",
 	text: "As you're about to cross the bridge over, the guard stops you in your path but this time for a different reason. ''Look I know you hate me for what I did but I was just following orders, I didn't realize you were going to help with our problem with the bandits. I know you're mad but I'm sorry... Do you accept my apology?'' </br> </br> He puts his hand in front of you. Do you shake it?",
 	choices: [
 		{
@@ -424,7 +424,7 @@ var gameArray = [
 	]
 },
 {
-	img: "blacksmith armour",
+	img: "armour.png",
 	text: "You ask the blacksmith to make you some armour and he agrees. After a while you come back to the blacksmiths to collect your armor but however when you grab it, it falls into pieces. You just realized that you've been scammed...",
 	choices: [
 		{
@@ -434,7 +434,7 @@ var gameArray = [
 	]
 },
 {
-	img: "food",
+	img: "food.png",
 	text: "You say yes as the waiter leads you to your table. After waiting for a bit, your food has arrived and it. is. delicious. It fills you up real good.",
 	choices: [
 		{
@@ -444,7 +444,7 @@ var gameArray = [
 	]
 },
 {
-	img: "sword",
+	img: "sword.png",
 	text: "You tell the store owner that you want to buy a sword. After he gives you one, you play around with it but however, the sword flies out of your hands and falls down the cliffside. Whoops.",
 	choices: [
 		{
