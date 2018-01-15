@@ -251,7 +251,7 @@ var gameArray = [
 },
 {
 	img: "Guard Fight",
-	text: "''Okay let's fight.'' you say as you raise your fists ready to attack. The guard pulls out his rather large sword [( ͡° ͜ʖ ͡°)] and charges at you yelling! </br> </br> What do you do now?",
+	text: "''Okay let's fight.'' you say as you raise your fists ready to attack. The guard pulls out his rather large sword and charges at you yelling! </br> </br> What do you do now?",
 	choices: [
 		{
 			text: "Dodge Him",
