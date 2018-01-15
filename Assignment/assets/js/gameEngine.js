@@ -472,7 +472,7 @@ var gameArray = [
 	]
 },
 {
-	img: "sneak",
+	img: "test.png",
 	text: "You decide to sneak past them. You notice a crack in the cave wall as a way to sneak past the guards. You begin to squrim your way through the crack and once you get to the otherside, the guards have disappeared. Now it's your time to get inside!",
 	choices: [
 		{
@@ -482,7 +482,7 @@ var gameArray = [
 	]
 },
 {
-	img: "wait",
+	img: "test.png",
 	text: "You decide to wait it out. You use a broken pillar as cover as you wait for the guards to leave their post. After a while, the guards notices and hears something and leave to investigate it. Now it's just chance to get inside.",
 	choices: [
 		{
