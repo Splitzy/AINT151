@@ -240,7 +240,7 @@ var gameArray = [
 	]
 },
 {
-	img: "bridge.png",
+	img: "bridge.jpg",
 	text: "Despite the heavy weight of the wolf over your shoulders, you manage to get to the bridge but however there's a guard in the middle of the bridge blocking your way into the town. You place the wolf comfortably next to a pillar as you walk up to the guard to explain your situation. ''No outsiders can enter the town unless they defeat me in combat. Either you beat me or you die. Your choice.'' The guard explains to you in a gruff voice. </br> </br> Looks like you have no choice but to fight him.",
 	choices: [
 		{
@@ -326,7 +326,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "old man.png",
 	text: "''STOP RIGHT THERE!'' A voice bellows from the cave. The guard stops as he was about to finish the job when a bearded man comes from the town and walks up to the bridge. ''You on the ground, come with me and bring your friend too. I'll talk to the guard later about all of this.'' He calmly says as he begins to head back to the town.",
 	choices: [
 		{
@@ -346,7 +346,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "underground town.jpg",
 	text: "You exit the wizard's house and you see a very lively and busy town despite it being in a middle of a cave. You notice a blacksmith, a nice resturant near the edge and a small weapons store.",
 	choices: [
 		{
@@ -454,7 +454,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "hideout.png",
 	text: "You approach the hideout and you notice two bandits standing outside of the hideout. It looks like you can sneak past them, do a surprise attack or wait it out.",
 	choices: [
 		{
@@ -472,7 +472,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "sneak.png",
 	text: "You decide to sneak past them. You notice a crack in the cave wall as a way to sneak past the guards. You begin to squrim your way through the crack and once you get to the otherside, the guards have disappeared. Now it's your time to get inside!",
 	choices: [
 		{
@@ -482,7 +482,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "hide.png",
 	text: "You decide to wait it out. You use a broken pillar as cover as you wait for the guards to leave their post. After a while, the guards notices and hears something and leave to investigate it. Now it's just chance to get inside.",
 	choices: [
 		{
@@ -502,7 +502,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "captured.png",
 	text: "You open the entrance door and all of a sudden, a bear trap gets set off and your trapped in it. The guards come back and wonder what to do to you. ''Nah bring him to the leader, he must be looking for that gem we got in our possesion! He can see it before he dies! hahahaha!'' The guards ties you up and brings you inside.",
 	choices: [
 		{
@@ -512,7 +512,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "gem.png",
 	text: "They take me to a large room where the leader sits there waiting for me, to my surprise it's a red human-like wolf who looks similar to Bluef. ''So looking for this?'' The red wolf says to me while holding the gem in his hand, ''Well this will be the only time you'll ever get to see it. Time to die you son of a bi-'' </br> </br> He gets punched in the face by blue who managed to get in without being noticed. The two then have an angry conversation together where it seems like they know each other... You also notice that the ropes wrapped around you up are weak.",
 	choices: [
 		{
@@ -522,7 +522,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "escape.png",
 	text: "You use every ounce of strength to break free from the restraints and quickly grab the gem from the red wolf's hands. ''BLUE! RUN! NOW!'' You shout at him as you run away from the leader's room. The blue wolf tells you how he managed to get in via the hideout walls. Looks like you have to ways of leaving this place.",
 	choices: [
 		{
@@ -594,7 +594,7 @@ var gameArray = [
 	text: "You completed A Wonder Into the Woods! There are 3 endings, can you get them all?"
 },
 {
-	img: "test.png",
+	img: "accepted.png",
 	text: "You firmly shake his hand, accepting his apology. You smile at him as you head off towards the hideout.",
 	choices: [
 		{
@@ -604,7 +604,7 @@ var gameArray = [
 	]
 },
 {
-	img: "test.png",
+	img: "denied.png",
 	text: "You ignore what you have to say to that brute and you head off towards the hideout with no haste.",
 	choices: [
 		{
